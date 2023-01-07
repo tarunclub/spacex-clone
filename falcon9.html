@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SpaceX - Falcon 9</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <main class="app">
+      <div class="mobile__menu">
+        <ul>
+          <li><a href="">Mission</a></li>
+          <li><a href="">Launches</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Updates</a></li>
+          <li><a href="">Shop</a></li>
+
+          <!-- Mobile View -->
+          <li class="mobile__only"><a href="falcon9.html">Falcon 9</a></li>
+          <li class="mobile__only">
+            <a href="falconheavy.html">Falcon Heavy</a>
+          </li>
+          <li class="mobile__only"><a href="dragon.html">dragon</a></li>
+          <li class="mobile__only"><a href="starship.html">Starship</a></li>
+          <li class="mobile__only">
+            <a href="humanspaceflight.html">human space flight</a>
+          </li>
+          <li class="mobile__only"><a href="rideshare.html">Rideshare</a></li>
+          <li class="mobile__only"><a href="starshield.html">starshield</a></li>
+          <li class="mobile__only"><a href="starlink.html">Starlink</a></li>
+        </ul>
+      </div>
+      <header class="header">
+        <a href="/" class="header__logo">
+          <img src="/logo.png" alt="logo" />
+        </a>
+        <nav class="header__links">
+          <ul>
+            <li><a href="falcon9.html">Falcon 9</a></li>
+            <li><a href="falconheavy.html">Falcon Heavy</a></li>
+            <li><a href="dragon.html">dragon</a></li>
+            <li><a href="starship.html">Starship</a></li>
+            <li><a href="humanspaceflight.html">human space flight</a></li>
+            <li><a href="rideshare.html">Rideshare</a></li>
+            <li><a href="starshield.html">starshield</a></li>
+            <li><a href="starlink.html">Starlink</a></li>
+            <li>
+              <a href="shop.html">Shop</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <button id="menu__btn" class="hamburger" type="button">
+        <span class="hamburger__top"></span>
+        <span class="hamburger__middle"></span>
+        <span class="hamburger__bottom"></span>
+      </button>
+
+      <section class="section__animate bg-falcon-9"></section>
+      <div class="section__inner__center">
+        <h3>Falcon 9</h3>
+        <p>FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT</p>
+      </div>
+
+      <div class="stats">
+        <div>
+          <span class="counter" data-target="194">0</span>
+          <h4>Total Launches</h4>
+        </div>
+        <div>
+          <span class="counter" data-target="152">0</span>
+          <h4>Total Landings</h4>
+        </div>
+        <div>
+          <span class="counter" data-target="131">0</span>
+          <h4>Total Reflights</h4>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <p>SpaceX &copy; 2023</p>
+        </li>
+        <li>Twitter</li>
+        <li>Youtube</li>
+        <li>Instagram</li>
+        <li>Flickr</li>
+        <li>Linkedin</li>
+        <li>Privacy Policy</li>
+        <li>Supplier</li>
+      </ul>
+    </footer>
+  </body>
+  <script src="/main.js"></script>
+</html>
